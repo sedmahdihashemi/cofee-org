@@ -1,0 +1,318 @@
+@font-face {
+    font-family: filo;
+    src: url(../font/Philosopher-Regular.ttf);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+
+}
+body{
+    font-family: filo;
+   >main{
+    >.main1{
+        background-image: url(../img/slide-1.jpg);
+        background-size: cover;
+    
+        background-attachment: fixed;
+      
+    }
+   }
+}
+#hgh1{
+    font-size: 80px;
+    color: #116a70;
+}
+#hgh2{
+    font-size: 80px;
+    color: white;
+}
+#btn1{
+    background-color: #116a70;
+}
+#main2{
+    background-color: black;
+}
+#dis{
+    color: #116a70;
+    font-size: 80px;
+}
+#story{
+    font-size: 70px;
+    font-weight: 300;
+}
+#main3{
+    background-color:  #04181a;
+}
+#main4{
+    background-image: url(../img/bg-4.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+#m4h2{
+    font-size: 70px;
+    color: #116a70;
+}
+#m4h3{
+    font-size: 70px;
+    
+}
+#main5{
+    background-image: url(../img/bg-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    // min-height: 100vh;
+}
+#m5h3{
+    font-weight: 200;
+    color: #116a70;
+}
+#cake1{
+    position: relative;
+    overflow: hidden;
+    // margin: 0 auto;
+    &::before{
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        transition: 1s;
+        transform: rotate(160deg);
+        transform-origin: 0 100%;
+        opacity: 0;
+
+        content: 'view';
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #116a70;
+
+
+
+    }
+    &:hover::before{
+        transform: rotate(0deg);
+        top: 30px;
+        opacity: 1;
+
+    }
+}
+#cake2{
+    position: relative;
+    overflow: hidden;
+    // margin: 0 auto;
+    &::before{
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        transition: 1s;
+        transform: rotate(160deg);
+        transform-origin: 0 100%;
+        opacity: 0;
+
+        content: 'view';
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #116a70;
+
+
+
+    }
+    &:hover::before{
+        transform: rotate(0deg);
+        top: 30px;
+        opacity: 1;
+
+    }
+}
+#cake3{
+    position: relative;
+    overflow: hidden;
+    // margin: 0 auto;
+    &::before{
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        transition: 1s;
+        transform: rotate(160deg);
+        transform-origin: 0 100%;
+        opacity: 0;
+
+        content: 'view';
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #116a70;
+
+
+
+    }
+    &:hover::before{
+        transform: rotate(0deg);
+        top: 30px;
+        opacity: 1;
+
+    }
+}
+#cake4{
+    position: relative;
+    overflow: hidden;
+    // margin: 0 auto;
+    &::before{
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        transition: 1s;
+        transform: rotate(160deg);
+        transform-origin: 0 100%;
+        opacity: 0;
+
+        content: 'view';
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #116a70;
+
+
+
+    }
+    &:hover::before{
+        transform: rotate(0deg);
+        top: 30px;
+        opacity: 1;
+
+    }
+}
+#cake5{
+    position: relative;
+    overflow: hidden;
+    // margin: 0 auto;
+    &::before{
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        transition: 1s;
+        transform: rotate(160deg);
+        transform-origin: 0 100%;
+        opacity: 0;
+
+        content: 'view';
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #116a70;
+
+
+
+    }
+    &:hover::before{
+        transform: rotate(0deg);
+        top: 30px;
+        opacity: 1;
+
+    }
+}
+#cake6{
+    position: relative;
+    overflow: hidden;
+    // margin: 0 auto;
+    &::before{
+        position: absolute;
+        left: 60px;
+        top: 100px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        transition: 1s;
+        transform: rotate(160deg);
+        transform-origin: 0 100%;
+        opacity: 0;
+
+        content: 'view';
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #116a70;
+
+
+
+    }
+    &:hover::before{
+        transform: rotate(0deg);
+        top: 30px;
+        opacity: 1;
+
+    }
+}
+#main6{
+    background-image: url(../img/bg-side-1.jpg);
+   background-size: contain;
+   background-position:  -60% 0%;
+   background-repeat: no-repeat;
+
+//    scale: .8;
+//    object-fit: cover;
+    background-attachment: fixed;
+    // height: 80vh;
+}
+#main6-1{
+    background-color: #116a70;
+    height: 100%;
+}
+#sech3{
+    color: #21a7b2;
+}
+#main8{
+    background-image: url(../img/bg-6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    // height: 100vh;
+}
+#m8h3{
+    color: #116a70;
+    font-size: 80px;
+    text-decoration: underline;
+}
+#pmon{
+    color: #21a7b2;
+    // font-size: 80px;
+}
+#footer{
+    background-color: #116a70;
+}
+// .main2{
+//     height: 100vh;
+// }
+
